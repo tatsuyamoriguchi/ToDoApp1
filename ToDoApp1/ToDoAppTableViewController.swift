@@ -11,6 +11,9 @@ import CoreData
 
 class ToDoAppTableViewController: UITableViewController {
 
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        print"You finished It!"
+    }
     var tasks = [Task]()
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
@@ -168,6 +171,7 @@ class ToDoAppTableViewController: UITableViewController {
         self.present(alert2, animated: true, completion: nil)
   
     }
+
 
     /*
     // Override to support rearranging the table view.

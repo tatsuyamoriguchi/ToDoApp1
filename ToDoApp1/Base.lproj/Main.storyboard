@@ -47,6 +47,9 @@
                             <rect key="frame" x="164.5" y="7" width="46" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="buttonClicked:" destination="Xg7-yx-NNJ" eventType="touchUpInside" id="XPg-JN-Iv7"/>
+                            </connections>
                         </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="gYu-WM-t1I">
                             <color key="tintColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
