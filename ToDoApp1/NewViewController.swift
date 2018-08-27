@@ -11,9 +11,14 @@ import UIKit
 class NewViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
+    
+    var toDo:String = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        textField.text = toDo
         print("This is a new VC.")
         
         // Do any additional setup after loading the view.

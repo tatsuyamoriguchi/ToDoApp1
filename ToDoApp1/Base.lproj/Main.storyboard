@@ -45,7 +45,7 @@
                     <navigationItem key="navigationItem" title="All Tasks" id="slN-eV-TwP">
                         <barButtonItem key="leftBarButtonItem" title="New" id="9LV-u7-UkD">
                             <connections>
-                                <segue destination="3HK-Hg-mwx" kind="show" id="NxC-y5-u6b"/>
+                                <segue destination="3HK-Hg-mwx" kind="show" identifier="segueToNewVC" id="NxC-y5-u6b"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="gYu-WM-t1I">
