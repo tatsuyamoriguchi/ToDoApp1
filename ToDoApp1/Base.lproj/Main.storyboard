@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="921" y="144"/>
         </scene>
-        <!--View Controller-->
+        <!--New View Controller-->
         <scene sceneID="RUb-fw-1mE">
             <objects>
-                <viewController id="3HK-Hg-mwx" sceneMemberID="viewController">
+                <viewController id="3HK-Hg-mwx" customClass="NewViewController" customModule="ToDoApp1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7y2-cR-8Wl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

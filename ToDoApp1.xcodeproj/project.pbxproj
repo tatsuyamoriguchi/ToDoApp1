@@ -13,6 +13,7 @@
 		8C535D3A20EEC3AD0071C946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C535D3920EEC3AD0071C946 /* Assets.xcassets */; };
 		8C535D3D20EEC3AD0071C946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C535D3B20EEC3AD0071C946 /* LaunchScreen.storyboard */; };
 		8C535D4520EEC7BA0071C946 /* ToDoAppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C535D4420EEC7BA0071C946 /* ToDoAppTableViewController.swift */; };
+		8CA462AD21346ECD0053F087 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA462AC21346ECD0053F087 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8C535D3C20EEC3AD0071C946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C535D3E20EEC3AD0071C946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C535D4420EEC7BA0071C946 /* ToDoAppTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppTableViewController.swift; sourceTree = "<group>"; };
+		8CA462AC21346ECD0053F087 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8C535D2F20EEC3AD0071C946 /* AppDelegate.swift */,
 				8C535D4420EEC7BA0071C946 /* ToDoAppTableViewController.swift */,
 				8C535D3320EEC3AD0071C946 /* Main.storyboard */,
+				8CA462AC21346ECD0053F087 /* NewViewController.swift */,
 				8C535D3920EEC3AD0071C946 /* Assets.xcassets */,
 				8C535D3B20EEC3AD0071C946 /* LaunchScreen.storyboard */,
 				8C535D3E20EEC3AD0071C946 /* Info.plist */,
@@ -141,6 +144,7 @@
 				8C535D3020EEC3AD0071C946 /* AppDelegate.swift in Sources */,
 				8C535D4520EEC7BA0071C946 /* ToDoAppTableViewController.swift in Sources */,
 				8C535D3820EEC3AD0071C946 /* ToDoApp1.xcdatamodeld in Sources */,
+				8CA462AD21346ECD0053F087 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
